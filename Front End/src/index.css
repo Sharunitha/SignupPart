@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/src/fantasy-landscape-background-hd-1080p-144206.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  
+  
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.regform{
+  width:400px;
+  background-color: rgba(0,0,0,.6);
+  padding: 10px 20px 30px;
+  color: white;
+  margin: 50px auto;
+  font-size: 22px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  transition: all 0.3s;
+
+}
+.signinform{
+  width:400px;
+  background-color: rgba(0,0,0,.6);
+  padding: 10px 20px 30px;
+  color: white;
+  margin: 200px auto;
+  font-size: 22px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  transition: all 0.3s;
+
+}
+h1{
+  color: #e0830a;
+  text-align: center;
+
+  
+}
+.textlabel{
+  display: block;
+}
+.input input {
+  width: 100%;
+  font-size: 1em;
+  border-radius: 15px;
+  color: black;
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 10px;
+  box-sizing: border-box;
+  margin: 5px 0px 15px;
+ 
+}
+input:focus{
+  background-color: aqua;
+}
+.btn{
+  text-align: center;
+}
+button{
+  background-color: rgb(51, 185, 247);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 3px solid rgb(7, 167, 235);
+  cursor: pointer;
+}
+p{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+
+}
+a {
+  color: rgb(18, 198, 238);
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: rgb(51, 17, 187);
+  background-color: transparent;
+  text-decoration: none;
+}
+input::placeholder{
+  font-style: italic;
+  color: black;
+  font-weight: 500;
+}
+.para{
+  text-align: center;
+  font-size: 15px;
+}
+button:active{
+  background-color: blue;
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.front {
+  font-size: 5em;
+  color: black;
+  margin: 250px auto;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid white;
+  background-color: rgb(30, 27, 27,0.15);
+  border-radius: 30px;
+  
+ 
+}
+.contact{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.join{
+  font-size: 64px;
+  color: black;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(19, 18, 18,0.8);
+  box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+}
+.search-bar{
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 50px;
+}
+.search-bar input{
+  height: 100%;
+  padding: .5rem;
+  border: none ;
+  outline: none;
+  border-radius: 30px;
+}
+.search-bar input:focus{
+  background-color: #ccc;
+}
+h2{
+  color: #ccc;
+}
+.user-wrapper{
+  display: flex;
+  align-items: center;
+}
+
