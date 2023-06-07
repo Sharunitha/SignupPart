@@ -9,7 +9,7 @@ const bcrypt=require("bcryptjs")
 const jwt=require("jsonwebtoken");
 const JWT_SECRET="dhgvhu7ert789564258()wsde8d55d47854dhfygfhbj?ffe854![]kij485";
 
-const mongourl="mongodb+srv://Shruthika:Shan%402002@cluster0.kvy6ee0.mongodb.net/?retryWrites=true&w=majority";
+const mongourl="YOUR_MONGODB_ULI";
  mongoose.set('strictQuery', true)
 mongoose.connect(mongourl,{
     useNewUrlParser:true,
